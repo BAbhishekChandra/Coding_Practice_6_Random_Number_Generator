@@ -56,3 +56,27 @@
   font-weight: 800;
   margin: 20px;
 }
+
+@media screen and (max-width: 768px) {
+  .card {
+    height: 240px;
+    width: 200px;
+    padding: 10px;
+  }
+
+  .heading {
+    font-size: 18px;
+  }
+
+  .description {
+    font-size: 14px;
+  }
+
+  .generate-button {
+    font-size: 8px;
+  }
+
+  .random-number {
+    font-size: 22px;
+  }
+}
